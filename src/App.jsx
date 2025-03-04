@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div>
-      <h1>Booksname</h1>
+      <h1>Digital Library</h1>
       {books.map((book)=>(
         <BookCard key ={book.id} book = {book}/>
       ))}
